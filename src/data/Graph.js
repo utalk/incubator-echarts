@@ -171,7 +171,7 @@ graphProto.addEdge = function (n1, n2, dataIndex) {
     var key = n1.id + '-' + n2.id;
     // PENDING
     if (edgesMap[key]) {
-        return;
+    //    return;
     }
 
     var edge = new Edge(n1, n2, dataIndex);
